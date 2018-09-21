@@ -28,7 +28,7 @@ long long gcd(long long a, long long b) {
 	else return gcd(b, a%b);
 }
 
-int main(void)  // ÇÇ»ç³ë ÁÖ±â´Â ³ª´©´Â ¼ö°¡ 10ÀÇ °ÅµìÁ¦°ö ²ÃÀÏ¶§¸¸ °¡´É
+int main(void)  // í”¼ì‚¬ë…¸ ì£¼ê¸°ëŠ” ë‚˜ëˆ„ëŠ” ìˆ˜ê°€ 10ì˜ ê±°ë“­ì œê³± ê¼´ì¼ë•Œë§Œ ê°€ëŠ¥
 {
 	long long n, m, num;
 	scanf("%lld %lld", &n, &m);
@@ -50,3 +50,5 @@ int main(void)  // ÇÇ»ç³ë ÁÖ±â´Â ³ª´©´Â ¼ö°¡ 10ÀÇ °ÅµìÁ¦°ö ²ÃÀÏ¶§¸¸ °¡´É
 	printf("%lld\n", ans[0][1]);
 	return 0;
 }
+
+// ë¬¸ì œ: https://www.acmicpc.net/problem/11778
