@@ -33,3 +33,5 @@ int main(void)
 	else printf("Not Eyfa\n");
 	return 0;
 }
+
+// https://www.acmicpc.net/problem/11383
