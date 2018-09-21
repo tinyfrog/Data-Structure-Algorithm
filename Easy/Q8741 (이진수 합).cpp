@@ -13,3 +13,5 @@ int main(void)
 	printf("%s\n", a);
 	return 0;
 }
+
+// 문제: https://www.acmicpc.net/problem/8741
