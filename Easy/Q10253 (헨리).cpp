@@ -33,3 +33,5 @@ int main(void)
 		printf("%d\n", b);
 	}
 }
+
+문제: https://www.acmicpc.net/problem/1002
