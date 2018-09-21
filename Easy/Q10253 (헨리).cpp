@@ -34,4 +34,4 @@ int main(void)
 	}
 }
 
-문제: https://www.acmicpc.net/problem/1002
+문제: https://www.acmicpc.net/problem/10253
