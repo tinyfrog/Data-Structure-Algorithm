@@ -16,3 +16,5 @@ int main(void)
 	printf("%d:%d\n", n / div, m / div);
 	return 0;
 }
+
+// 문제: https://www.acmicpc.net/problem/14490
