@@ -49,3 +49,5 @@ int main(void)
 	}
 	printf("%d\n%d\n", a1, a2);
 }
+
+// 문제: https://www.acmicpc.net/problem/13698
