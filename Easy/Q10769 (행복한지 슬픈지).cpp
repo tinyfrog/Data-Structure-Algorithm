@@ -27,3 +27,5 @@ int main(void)
 	else printf("sad\n");
 	return 0;
 }
+
+// https://www.acmicpc.net/problem/10769
