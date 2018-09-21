@@ -20,3 +20,5 @@ int main(void)
 	printf("\n");
 	return 0;
 }
+
+// 문제: https://www.acmicpc.net/problem/8949
