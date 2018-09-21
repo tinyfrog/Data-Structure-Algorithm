@@ -68,3 +68,5 @@ int main(void)
 	}
 	return 0;
 }
+
+// 문제: https://www.acmicpc.net/problem/15962
