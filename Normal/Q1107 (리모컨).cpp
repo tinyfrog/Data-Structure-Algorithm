@@ -29,7 +29,7 @@ int main(void)
 			temp = num;
 			digit = 0;
 
-			if (num % 10 == 0) { // ³¡ÀÚ¸®°¡ 0ÀÌ¸é »ı±â´Â ¹İ·Ê
+			if (num % 10 == 0) { // ëìë¦¬ê°€ 0ì´ë©´ ìƒê¸°ëŠ” ë°˜ë¡€
 				if (check[0]) {
 					--num;
 					continue;
@@ -61,7 +61,7 @@ int main(void)
 			temp = num;
 			digit = 0;
 
-			if (num % 10 == 0) { // ³¡ÀÚ¸®°¡ 0ÀÌ¸é »ı±â´Â ¹İ·Ê
+			if (num % 10 == 0) { // ëìë¦¬ê°€ 0ì´ë©´ ìƒê¸°ëŠ” ë°˜ë¡€
 				if (check[0]) {
 					++num;
 					continue;
@@ -86,3 +86,5 @@ int main(void)
 	}
 	printf("%d\n", ans);
 }
+
+// ë¬¸ì œ: https://www.acmicpc.net/problem/1107
