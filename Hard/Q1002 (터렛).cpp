@@ -23,10 +23,12 @@ int main(void)
 		d3 = (jr - br) * (jr - br);
 
 		if (d1 > d2) printf("0\n");
-		else if ((d1 == d2 || d1 == d3) && d1 != 0) printf("1\n"); // ÇÔÁ¤ ÁÖÀÇ
+		else if ((d1 == d2 || d1 == d3) && d1 != 0) printf("1\n"); // í•¨ì • ì£¼ì˜
 		else if (d1 > d3) printf("2\n");
-		else if (d1 == 0 && d3 == 0) printf("-1\n"); // Áß½Éµµ °°°í, ¹İÁö¸§µµ °°°í
+		else if (d1 == 0 && d3 == 0) printf("-1\n"); // ì¤‘ì‹¬ë„ ê°™ê³ , ë°˜ì§€ë¦„ë„ ê°™ê³ 
 		else printf("0\n");
 	}
 	return 0;
 }
+
+// ë¬¸ì œ : https://www.acmicpc.net/problem/1002
