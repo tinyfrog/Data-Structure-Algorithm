@@ -1,4 +1,6 @@
 # acmicpc
 백준 온라인 저지 (Baekjoon Online Judge)
 
-난도는 임의로 나누었습니다.
+Easy : 정답률 60 % 이상
+Normal : 정답률 30% 이상
+Hard : 
