@@ -22,8 +22,10 @@ int main(void)
 
 			if ((rad * rad) >(start.x - mid.x) * (start.x - mid.x) + (start.y - mid.y) * (start.y - mid.y) || (rad * rad) > (end.x - mid.x) * (end.x - mid.x) + (end.y - mid.y) * (end.y - mid.y)) ++answer;
 			if ((rad * rad) > (start.x - mid.x) * (start.x - mid.x) + (start.y - mid.y) * (start.y - mid.y) && (rad * rad) > (end.x - mid.x) * (end.x - mid.x) + (end.y - mid.y) * (end.y - mid.y)) --answer;
-		} // ÇÑ ¿ø¾È¿¡ ½ÃÀÛÁ¡, µµÂøÁ¡ µÑ´Ù ÀÖ´Â °æ¿ì
+		} // í•œ ì›ì•ˆì— ì‹œì‘ì , ë„ì°©ì  ë‘˜ë‹¤ ìˆëŠ” ê²½ìš°
 		printf("%d\n", answer);
 	}
 	return 0;
 }
+
+// ë¬¸ì œ : https://www.acmicpc.net/problem/1004
