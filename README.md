@@ -3,4 +3,4 @@
 
 Easy : 정답률 60 % 이상
 Normal : 정답률 30% 이상
-Hard : 
+Hard : 나머지
