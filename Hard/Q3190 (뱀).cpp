@@ -14,7 +14,7 @@ int map[102][102];
 order ar[101];
 Point q[1000001];
 int dx[4] = { 0, 0, -1, 1 };
-int dy[4] = { -1, 1, 0, 0 }; // ÁÂ¿ì»óÇÏ
+int dy[4] = { -1, 1, 0, 0 }; // ì¢Œìš°ìƒí•˜
 
 int main(void)
 {
@@ -33,22 +33,22 @@ int main(void)
 		scanf(" %d %c", &ar[i].s, &ar[i].d);
 	}
 
-	map[sx][sy] = 2; // ¹ì À§Ä¡
+	map[sx][sy] = 2; // ë±€ ìœ„ì¹˜
 	q[rear].x = sx, q[rear++].y = sy;
 	while (true)
 	{
 		++ans;
 		sx += dx[dir], sy += dy[dir];
-		if (map[sx][sy] == 0) { // ÀÌ °æ¿ì¿¡´Â ¼ºÀåÇÏÁö ¾ÊÀ¸¹Ç·Î, ²¿¸®ÀÌµ¿
+		if (map[sx][sy] == 0) { // ì´ ê²½ìš°ì—ëŠ” ì„±ì¥í•˜ì§€ ì•Šìœ¼ë¯€ë¡œ, ê¼¬ë¦¬ì´ë™
 			map[q[front].x][q[front].y] = 0;
 			++front;
 		}
-		if (sx == 0 || sx == N+1 || sy == 0 || sy == N+1 || map[sx][sy] == 2) break; // Ãæµ¹
+		if (sx == 0 || sx == N+1 || sy == 0 || sy == N+1 || map[sx][sy] == 2) break; // ì¶©ëŒ
 		
 		map[sx][sy] = 2;
 		q[rear].x = sx, q[rear++].y = sy;
 
-		if (check < L && ans == ar[check].s) { // ¹æÇâ ÀüÈ¯
+		if (check < L && ans == ar[check].s) { // ë°©í–¥ ì „í™˜
 			if (ar[check].d == 'D') {
 				if (dir == 0) dir = 2;
 				else if (dir == 1) dir = 3;
@@ -67,4 +67,6 @@ int main(void)
 
 	printf("%d\n", ans);
 	return 0;
-}
+}  
+
+// ë¬¸ì œ : https://www.acmicpc.net/problem/3190
