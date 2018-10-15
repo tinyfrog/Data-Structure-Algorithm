@@ -25,5 +25,5 @@ int main(void)
 	return 0;
 }
 
-// นฎมฆ : https://www.acmicpc.net/problem/14697
-// บ๊ท็ฦฎ ฦ๗ฝบ
+// ยนยฎรยฆ : https://www.acmicpc.net/problem/14697
+// ยบรชยทรงรยฎ รรทยฝยบ
