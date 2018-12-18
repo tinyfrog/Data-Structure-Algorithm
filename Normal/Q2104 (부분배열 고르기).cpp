@@ -20,10 +20,9 @@ ll dc(int s, int e)
 	ret = max(ret, (ar[left] + ar[right]) * rets);
 
 	while (s < left || right < e) {
-		if (s == left || (right < e && ar[right + 1] > ar[left - 1])) right++, rets = min(rets, ar[right]);
-		else left--, rets = min(rets, ar[left]);
+		if (s == left || (right < e && ar[right + 1] > ar[left - 1])) rets = min(rets, ar[++right]);
+		else rets = min(rets, ar[--left]);
 
-		if (left == -1) left = 0;
 		ret = max(ret, (sum[right] - sum[left - 1]) * rets);
 	}
 	return ret;
@@ -43,6 +42,6 @@ int main(void)
 	return 0;
 }
 
-// ÃâÃ³ : https://www.acmicpc.net/problem/2104
-// NEERC 2005 F¹ø 2104 ºÎºÐ¹è¿­ °í¸£±â
-// ºÐÇÒÁ¤º¹
+// ì¶œì²˜ : https://www.acmicpc.net/problem/2104
+// NEERC 2005 Fë²ˆ 2104 ë¶€ë¶„ë°°ì—´ ê³ ë¥´ê¸°
+// ë¶„í• ì •ë³µ
